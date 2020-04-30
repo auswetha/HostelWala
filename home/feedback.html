@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+</head>
+<body>
+    <img src="logo.png" style="width: 5%; height:5%; float: center; margin-left: 63%;">
+    <h1>
+        Hostel Wala
+    </h1>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#">Find Hostel</a></li>
+            <li class="active"><a href="#">Feedback</a></li>
+            <li><a href="complaint.html">Complaints</a></li>
+            <li style="float: right;"><a href="index.html">Logout</a></li>
+            <li style="float: right;"><a href="#">Profile</a></li>
+        </ul>
+    </nav>
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="">
+            <h1>Give us Feedback</h1>
+            <div class="rating-wrapper">
+                <input type="radio" name="star" id="star-1"><label for="star-1">
+                </label>
+                <input type="radio" name="star" id="star-2"><label for="star-2">
+                </label>
+                <input type="radio" name="star" id="star-3"><label for="star-3">
+                </label>
+                <input type="radio" name="star" id="star-4"><label for="star-4">
+                </label>
+                <input type="radio" name="star" id="star-5"><label for="star-5">
+                </label>
+                <big>Food</big>
+            </div>
+            <div class="rating-wrapper">
+                <input type="radio" name="maintain" id="mstar-1"><label for="mstar-1">
+                </label>
+                <input type="radio" name="maintain" id="mstar-2"><label for="mstar-2">
+                </label>
+                <input type="radio" name="maintain" id="mstar-3"><label for="mstar-3">
+                </label>
+                <input type="radio" name="maintain" id="mstar-4"><label for="mstar-4">
+                </label>
+                <input type="radio" name="maintain" id="mstar-5"><label for="mstar-5">
+                </label>
+                <big>Maintainance</big>
+            </div>
+            <div class="rating-wrapper">
+                <input type="radio" name="hosp" id="hstar-1"><label for="hstar-1">
+                </label>
+                <input type="radio" name="hosp" id="hstar-2"><label for="hstar-2">
+                </label>
+                <input type="radio" name="hosp" id="hstar-3"><label for="hstar-3">
+                </label>
+                <input type="radio" name="hosp" id="hstar-4"><label for="hstar-4">
+                </label>
+                <input type="radio" name="hosp" id="hstar-5"><label for="hstar-5">
+                </label>
+                <big>Hospitality</big>
+            </div>
+            <br>
+            <div class="txtb">
+                <textarea placeholder="Message" required></textarea>
+            </div>
+            <input type="submit" class="btn" value="SEND">
+        </form>
+    </div>
+</body>
+
+</html>
